@@ -1,3 +1,4 @@
 .theme-a{
-    --primary-100: red;
+    --primary: red;
+    --secondary: orange;
 }

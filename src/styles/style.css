@@ -559,10 +559,16 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-primary-100 {
-  background-color: var(--primary-100);
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
 }
 
 .theme-a{
-  --primary-100: red;
+  --primary: red;
+  --secondary: orange;
 }
+
