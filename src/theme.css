@@ -1,4 +1,14 @@
 .theme-a{
-    --primary: red;
-    --secondary: orange;
+    --primary: #005eb8;
+    --primary-content: #ffffff;
+    --secondary: #007f3b;
+    --secondary-content: #ffffff;
+    --accent: #fd0;
+    --neutral: "#0b0c0c";
+    --base: "#ffffff";
+    --container: "#f3f2f1";
+    --info: "#2563eb";
+    --success: "#16a34a";
+    --warning: "#d97706",
+    --error: "#dc2626";
 }

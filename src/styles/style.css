@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+
 /*
 ! tailwindcss v3.2.3 | MIT License | https://tailwindcss.com
 */
@@ -418,7 +422,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -465,7 +469,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -512,7 +516,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -559,16 +563,30 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-primary {
+.bg-primary{
   background-color: var(--primary);
 }
 
-.bg-secondary {
+.bg-secondary{
   background-color: var(--secondary);
 }
 
-.theme-a{
-  --primary: red;
-  --secondary: orange;
+.text-red-800{
+  --tw-text-opacity: 1;
+  color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
+.theme-a{
+  --primary: #005eb8;
+  --primary-content: #ffffff;
+  --secondary: #007f3b;
+  --secondary-content: #ffffff;
+  --accent: #fd0;
+  --neutral: "#0b0c0c";
+  --base: "#ffffff";
+  --container: "#f3f2f1";
+  --info: "#2563eb";
+  --success: "#16a34a";
+  --warning: "#d97706",
+    --error: "#dc2626";
+}
