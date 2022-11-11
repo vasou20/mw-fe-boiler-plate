@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import url('https://github.com/deepaksivamani/MW-FONTS/tree/main/Nunito/static');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+@import url('https://github.com/deepaksivamani/MW-FONTS/tree/main/Raleway/static');
 
 /*
 ! tailwindcss v3.2.3 | MIT License | https://tailwindcss.com
@@ -571,9 +571,13 @@ video {
   background-color: var(--secondary);
 }
 
-.text-red-800{
-  --tw-text-opacity: 1;
-  color: rgb(153 27 27 / var(--tw-text-opacity));
+.font-priamry{
+  font-family: Raleway, sans-serif;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .theme-a{

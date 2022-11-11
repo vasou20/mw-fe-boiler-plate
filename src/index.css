@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+/* we need to change the repo */
+@import url('https://github.com/deepaksivamani/MW-FONTS/tree/main/Nunito/static');
+@import url('https://github.com/deepaksivamani/MW-FONTS/tree/main/Raleway/static');
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
