@@ -2,9 +2,9 @@
 
 @import url('https://github.com/deepaksivamani/MW-FONTS/tree/main/Raleway/static');
 
-/*
-! tailwindcss v3.2.3 | MIT License | https://tailwindcss.com
-*/
+/* we need to change the repo */
+
+/* ! tailwindcss v3.2.3 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -571,15 +571,6 @@ video {
   background-color: var(--secondary);
 }
 
-.font-priamry{
-  font-family: Raleway, sans-serif;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .theme-a{
   --primary: #005eb8;
   --primary-content: #ffffff;
@@ -594,3 +585,76 @@ video {
   --warning: "#d97706",
     --error: "#dc2626";
 }
+
+body{
+  font-family: Nunito, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--base);
+}
+
+h1{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px){
+  h1{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+h2{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px){
+  h2{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+h3{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+@media (min-width: 768px){
+  h3{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+h4{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 768px){
+  h4{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+label{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: var(--base);
+}
+
+legend{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: var(--base);
+}
+
