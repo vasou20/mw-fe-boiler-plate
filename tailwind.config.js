@@ -6,7 +6,19 @@ module.exports = {
       colors: {
         primary: 'var(--primary)',
         secondary: 'var(--secondary)',
-      }
+        accent: 'var(--accent)',
+        netural: 'var(--netural)',
+        base: 'var(--base)',
+        container: 'var(--contianer)',
+        info: 'var(--info)',
+        success: 'var(--success)',
+        warning: 'var(--warning)',
+        error: 'var(--error)',
+      },
+      fontFamily: {
+        priamry: ['Raleway', 'sans-serif'],
+        base: ['Nunito', 'sans-serif'],
+      },
     },
   },
   plugins: [],
