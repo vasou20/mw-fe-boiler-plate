@@ -5,6 +5,5 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-@import './theme.css';
-@import './typography.css';
-
+@import './styles/theme.css';
+@import './styles/typography.css';

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
-import Components from './components';
+import AppRoute from './routes';
 
 
 function App() {
@@ -22,7 +21,7 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-        <Components/>
+        <AppRoute/>
     </div>
   );
 }
